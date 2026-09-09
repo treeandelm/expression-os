@@ -1,0 +1,17 @@
+# C-english-site · Day1 SEO JIT (2026-09-08)
+# Fact (Google Search Central): robots.txt manages crawling, not a hide-from-Search switch.
+# Default for a new public MVP: allow all crawlers on /.
+
+User-agent: *
+Allow: /
+
+# GEO-related (official bot names; independent rules). Allow search/citation crawlers.
+# Training crawlers left allowed for now (cold-start site needs discovery); revisit after Day5.
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
