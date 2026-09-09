@@ -15,3 +15,5 @@ Allow: /
 
 User-agent: PerplexityBot
 Allow: /
+
+Sitemap: https://treeandelm.github.io/expression-os/sitemap.xml
