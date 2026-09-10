@@ -23,6 +23,14 @@
     .cta:hover { opacity: 0.9; }
     .cta-secondary { display: inline-block; margin-top: 0.75rem; font-size: 0.9rem; color: var(--muted); }
     .note { background: var(--soft); padding: 0.85rem 1rem; border-radius: 8px; margin-top: 1.25rem; font-size: 0.95rem; }
+    .proof { margin: 0.5rem 0 0; }
+    .proof-block { background: var(--soft); padding: 0.9rem 1rem; border-radius: 8px; margin: 0.75rem 0; }
+    .proof-block h3 { font-size: 0.98rem; margin: 0 0 0.45rem; }
+    .proof-block p { margin: 0; font-size: 0.95rem; color: #222; }
+    table.note-tpl { width: 100%; border-collapse: collapse; margin: 0.5rem 0 0; font-size: 0.88rem; background: #fff; }
+    table.note-tpl th, table.note-tpl td { border: 1px solid var(--line); padding: 0.45rem 0.5rem; text-align: left; vertical-align: top; }
+    table.note-tpl th { background: #eee; font-weight: 600; }
+    table.note-tpl td { min-height: 2rem; color: #999; }
     ul { padding-left: 1.2rem; margin: 0.4rem 0; }
     li { margin: 0.4rem 0; }
     hr { border: 0; border-top: 1px solid var(--line); margin: 1.75rem 0; }
@@ -47,14 +55,42 @@
 
   <p><a class="cta" href="method/">Read the method</a></p>
 
-  <hr />
 
+  <h2 id="proof">Proof / Evidence</h2>
+  <p class="lede" style="font-size:0.95rem;color:var(--muted);margin-bottom:0.25rem;">Three things you can check yourself — no fake student counts or rankings.</p>
+  <div class="proof">
+    <div class="proof-block">
+      <h3>Unscripted retelling note template</h3>
+      <p>Empty practice sheet (fill it yourself — blank on purpose):</p>
+      <table class="note-tpl" aria-label="Empty unscripted retelling note template">
+        <thead>
+          <tr><th>Idea / point</th><th>What you said</th><th>Clearer wording</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+          <tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+          <tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="proof-block">
+      <h3>AI speech coach practice loop</h3>
+      <p>One cycle: lock a real transcript as the answer key → retell out loud without the script → compare against the key → fix one gap → repeat.</p>
+      <p style="margin-top:0.5rem;font-size:0.9rem;"><a href="method/#loop">See the full loop on the Method page</a></p>
+    </div>
+    <div class="proof-block">
+      <h3>Honest cold start</h3>
+      <p>Public site live (Home + Method). No paid students claimed. No ranking screenshots. Next proof will be dated practice notes or China-AI visibility checks — not invented metrics.</p>
+    </div>
+  </div>
+
+  <hr />
   <h2>About</h2>
   <ul>
     <li><strong>Who:</strong> Tree — learning and teaching this method in public</li>
     <li><strong>What I’m practicing:</strong> unscripted retelling with AI as a speech coach</li>
     <li><strong>Honest status:</strong> cold start; no fake student counts or rankings</li>
-    <li><strong>Next:</strong> ship a clear method page people can actually try</li>
+    <li><strong>Next:</strong> Method page is live — try the empty note template above, then <a href="method/">read the full loop</a></li>
   </ul>
 
   <p class="note">Start with the method. If it fits how you learn, we can talk about a practice pack later — no hard sell on this page.</p>
